@@ -1,0 +1,55 @@
+body {
+  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.proposal {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 0;
+}
